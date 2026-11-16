@@ -1,0 +1,18 @@
+node_modules/
+__pycache__/
+*.pyc
+
+# secrets and personal data
+.env
+.env.*
+.neon
+config.json
+data.json
+data_demo.json
+neon_pending.json
+*.tmp
+
+# old backups
+*.bak
+*.bak2
+_orig/

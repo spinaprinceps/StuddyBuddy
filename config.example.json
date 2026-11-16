@@ -1,0 +1,106 @@
+{
+  "start_date": "",
+  "deadline": "",
+  "wake_time": "07:30",
+  "study_start": "08:00",
+  "study_end": "23:00",
+  "focus_levels": {
+    "low": {
+      "focus": 25,
+      "break": 5,
+      "starter": 10
+    },
+    "medium": {
+      "focus": 50,
+      "break": 10
+    },
+    "high": {
+      "focus": 90,
+      "break": 20
+    }
+  },
+  "default_level": "medium",
+  "fold_leftover_min": 15,
+  "order_timeout_min": 5,
+  "nag_every_min": 1,
+  "off_duty_nag_min": 20,
+  "idle_min": 10,
+  "alarm_sound": true,
+  "alarm_volume": 100,
+  "focus_sound": "rain",
+  "focus_sound_volume": 35,
+  "gemini_api_key": "",
+  "gemini_model": "gemini-3.5-flash-lite",
+  "gemini_fallback_models": [
+    "gemini-3.5-flash-lite",
+    "gemini-3.8-flash-lite",
+    "gemini-3.1-flash-lite",
+    "gemini-2.5-flash-lite",
+    "gemini-3.5-flash",
+    "gemini-2.5-flash"
+  ],
+  "distraction_keywords": [
+    "instagram",
+    "youtube",
+    "netflix",
+    "reddit",
+    "facebook",
+    "twitter",
+    "snapchat",
+    "tiktok",
+    "prime video",
+    "hotstar",
+    "jiocinema",
+    "twitch"
+  ],
+  "punishments": [
+    {
+      "text": "Do {n} squats.",
+      "base": 20,
+      "step": 10
+    },
+    {
+      "text": "Do {n} push-ups (knee push-ups are fine).",
+      "base": 15,
+      "step": 5
+    },
+    {
+      "text": "Hold a plank for {n} minute(s).",
+      "base": 1,
+      "step": 1,
+      "timed": true
+    },
+    {
+      "text": "Go splash cold water on your face. {n} times.",
+      "base": 3,
+      "step": 2
+    },
+    {
+      "text": "Sit for {n} minutes doing NOTHING. No phone, no screen.",
+      "base": 5,
+      "step": 2,
+      "timed": true
+    },
+    {
+      "text": "Walk for {n} minutes. Leave your phone behind.",
+      "base": 5,
+      "step": 2,
+      "timed": true
+    },
+    {
+      "text": "Put your phone in another room until your next break.",
+      "base": 1,
+      "step": 0
+    },
+    {
+      "text": "On paper, write {n} lines: why this subject matters to me.",
+      "base": 3,
+      "step": 2
+    },
+    {
+      "text": "Take {n} slow, deep breaths. Eyes closed.",
+      "base": 10,
+      "step": 5
+    }
+  ]
+}
